@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Madrid</title>
+    <link rel="stylesheet" href="osos.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="osos.html">الصفحة الرئيسية</a></li>
+          <li><a href="osos2.html">الأخبار</a></li>
+          <li><a href="osos3.html">اللاعبون</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>ريال مدريد</h1>
+        <p>الموقع الرسمي</p>
+      </section>
+      <section id="news">
+        <h2>أحدث الأخبار</h2>
+        <div class="article">
+          <img src="https://arabic.sport360.com/wp-content/uploads/2021/01/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%85%D9%84%D8%AE%D8%B5-2.jpg" alt="Article Image" />
+          <h3>ريال مدريد يفوز بدوري الأبطال</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a href="osos2.html">قراءة المزيد</a>
+        </div>
+        <div class="article">
+          <img src="https://img.youm7.com/ArticleImgs/2019/3/11/90645-%D8%B2%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D8%B2%D9%8A%D8%AF%D8%A7%D9%86.jpg" alt="Article Image" />
+          <h3>زين الدين زيدان يعود كمدرب</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a href="https://www.facebook.com/zinedine7zidane/?locale=ar_AR">قراءة المزيد</a>
+        </div>
+      </section>
+      <section id="players">
+        <h2>اللاعبون</h2>
+        <ul>
+          <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cristiano_Ronaldo_2012.jpg/250px-Cristiano_Ronaldo_2012.jpg" alt="Player Image" />
+            <h4>كريستيانو رونالدو</h4>
+            <p>مهاجم</p>
+          </li>
+          <li>
+            <img src="https://cdn.al-ain.com/images/2020/3/30/124-154223-sergio-ramos-34years_700x400.jpg" alt="Player Image" />
+            <h4>سيرجيو راموس</h4>
+            <p>مدافع</p>
+          </li>
+          <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/CSKA-RM18_%287%29_%28cropped%29.jpg" alt="Player Image" />
+            <h4>توني كروس</h4>
+            <p>وسط</p>
+          </li>
+          <li>
+            <img src="https://www.alyaum.com/uploads/images/2022/06/01/1386861.jpg" alt="Player Image" />
+            <h4>ثيبو كورتوا</h4>
+            <p>حارس مرمى</p>
+          </li>
+        </ul>
+      </section>
+      <section id="matches">
+        <h2>المباريات القادمة</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>التاريخ</th>
+              <th>الفريق المنافس</th>
+              <th>الملعب</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 يونيو 2023</td>
+              <td>برشلونة</td>
+              <td>كامب نو</td>
+            </tr>
+            <tr>
+              <td>15 يونيو 2023</td>
+              <td>أتلتيكو مدريد</td>
+              <td>سانتياغو برنابيو</td>
+            </tr>
+            <tr>
+              <td>30 يونيو 2023</td>
+              <td>فالنسيا</td>
+              <td>مستايا</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <center><h3>تشكيلة الفريق</h3>
+      <ul>
+        <li>الحارس: <span id="goalkeeper"></span></li>
+        <li>الدفاع: <span id="defense"></span></li>
+        <li>الوسط: <span id="midfield"></span></li>
+        <li>الهجوم: <span id="attack"></span></li>
+      </ul>
+      <button onclick="showLineup()">عرض التشكيلة</button></center>
+    </main>
+    <script src="osos.js"></script>
+    <footer>
+      <center><p>جميع الحقوق محفوظة © 2023 ريال مدريد</p></center>
+    </footer>
+  </body>
+</html>
